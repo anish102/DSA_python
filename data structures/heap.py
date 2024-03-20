@@ -37,7 +37,7 @@ class MaxHeap:
 
 min_heap = MinHeap()
 min_heap.push(5)
-min_heap.push(8)
+min_heap.push(6)
 min_heap.push(3)
 min_heap.push(1)
 min_heap.push(2)
