@@ -13,7 +13,7 @@ def heapify(arr, n, i):
     if r < n and arr[largest] < arr[r]:
         largest = r
 
-    # If root is not largest, swap with largest and continue heapifying
+    # If root is not largest, swap with largest and continue to heapifying
     if largest != i:
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, n, largest)
