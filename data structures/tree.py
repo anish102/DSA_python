@@ -14,7 +14,7 @@ def printParents(node, adj, parent):
         if (cur != parent):
             printParents(cur, adj, node)
 
-# Function to print the children of each node
+# Function to print children of each node
 
 
 def printChildren(Root, adj):
